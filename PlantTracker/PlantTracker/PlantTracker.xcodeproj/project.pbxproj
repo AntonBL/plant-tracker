@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7548F1E22F01A747004B83E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548F1DF2F01A747004B83E5 /* Assets.xcassets */; };
+		7548F2062F01A836004B83E5 /* PlantTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F12F01A835004B83E5 /* PlantTrackerApp.swift */; };
+		7548F2072F01A836004B83E5 /* ProxyDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1EE2F01A835004B83E5 /* ProxyDTOs.swift */; };
+		7548F2082F01A836004B83E5 /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F2042F01A835004B83E5 /* PlantListView.swift */; };
+		7548F2092F01A836004B83E5 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F82F01A835004B83E5 /* ChatViewModel.swift */; };
+		7548F20A2F01A836004B83E5 /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1EB2F01A835004B83E5 /* Assessment.swift */; };
+		7548F20B2F01A836004B83E5 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1ED2F01A835004B83E5 /* Plant.swift */; };
+		7548F20C2F01A836004B83E5 /* WateringEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1EF2F01A835004B83E5 /* WateringEvent.swift */; };
+		7548F20D2F01A836004B83E5 /* PlantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1FC2F01A835004B83E5 /* PlantRowView.swift */; };
+		7548F20E2F01A836004B83E5 /* AnalysisResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F2002F01A835004B83E5 /* AnalysisResultView.swift */; };
+		7548F20F2F01A836004B83E5 /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1FD2F01A835004B83E5 /* RetryButton.swift */; };
+		7548F2102F01A836004B83E5 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1FF2F01A835004B83E5 /* AddPlantView.swift */; };
+		7548F2112F01A836004B83E5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F32F01A835004B83E5 /* ImageService.swift */; };
+		7548F2122F01A836004B83E5 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F42F01A835004B83E5 /* NotificationService.swift */; };
+		7548F2132F01A836004B83E5 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1EC2F01A835004B83E5 /* ChatMessage.swift */; };
+		7548F2142F01A836004B83E5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F2012F01A835004B83E5 /* ChatView.swift */; };
+		7548F2152F01A836004B83E5 /* PlantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F92F01A835004B83E5 /* PlantDetailViewModel.swift */; };
+		7548F2162F01A836004B83E5 /* GeminiProxyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F22F01A835004B83E5 /* GeminiProxyClient.swift */; };
+		7548F2172F01A836004B83E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1F62F01A835004B83E5 /* Constants.swift */; };
+		7548F2182F01A836004B83E5 /* PlantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F1FA2F01A835004B83E5 /* PlantListViewModel.swift */; };
+		7548F2192F01A836004B83E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F2022F01A835004B83E5 /* ContentView.swift */; };
+		7548F21A2F01A836004B83E5 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548F2032F01A835004B83E5 /* PlantDetailView.swift */; };
+		755D28532F022CDC0030095C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D28522F022CDC0030095C /* ImagePicker.swift */; };
+		755D28552F02C57A0030095C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D28542F02C57A0030095C /* SettingsView.swift */; };
+		755D28572F02F6800030095C /* ImprovementNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D28562F02F6800030095C /* ImprovementNote.swift */; };
+		755D28592F02F68E0030095C /* ImprovementNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D28582F02F68E0030095C /* ImprovementNotesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DB84A82F01876C009577A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DB84922F018767009577A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DB84992F018768009577A8;
+			remoteInfo = PlantTracker;
+		};
+		75DB84B22F01876C009577A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DB84922F018767009577A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DB84992F018768009577A8;
+			remoteInfo = PlantTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7548F1DF2F01A747004B83E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7548F1EB2F01A835004B83E5 /* Assessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
+		7548F1EC2F01A835004B83E5 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		7548F1ED2F01A835004B83E5 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		7548F1EE2F01A835004B83E5 /* ProxyDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyDTOs.swift; sourceTree = "<group>"; };
+		7548F1EF2F01A835004B83E5 /* WateringEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringEvent.swift; sourceTree = "<group>"; };
+		7548F1F12F01A835004B83E5 /* PlantTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantTrackerApp.swift; path = ../PlantTrackerApp.swift; sourceTree = SOURCE_ROOT; };
+		7548F1F22F01A835004B83E5 /* GeminiProxyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiProxyClient.swift; sourceTree = "<group>"; };
+		7548F1F32F01A835004B83E5 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		7548F1F42F01A835004B83E5 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7548F1F62F01A835004B83E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7548F1F82F01A835004B83E5 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		7548F1F92F01A835004B83E5 /* PlantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewModel.swift; sourceTree = "<group>"; };
+		7548F1FA2F01A835004B83E5 /* PlantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewModel.swift; sourceTree = "<group>"; };
+		7548F1FC2F01A835004B83E5 /* PlantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRowView.swift; sourceTree = "<group>"; };
+		7548F1FD2F01A835004B83E5 /* RetryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryButton.swift; sourceTree = "<group>"; };
+		7548F1FF2F01A835004B83E5 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		7548F2002F01A835004B83E5 /* AnalysisResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultView.swift; sourceTree = "<group>"; };
+		7548F2012F01A835004B83E5 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		7548F2022F01A835004B83E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7548F2032F01A835004B83E5 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		7548F2042F01A835004B83E5 /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		7548F21B2F01A93F004B83E5 /* PlantTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755D284F2F0219C40030095C /* PlantTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755D28502F0219C40030095C /* PlantTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755D28512F0228DE0030095C /* PlantTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PlantTracker-Info.plist"; sourceTree = "<group>"; };
+		755D28522F022CDC0030095C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		755D28542F02C57A0030095C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		755D28562F02F6800030095C /* ImprovementNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovementNote.swift; sourceTree = "<group>"; };
+		755D28582F02F68E0030095C /* ImprovementNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovementNotesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DB84972F018768009577A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84A42F01876C009577A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84AE2F01876C009577A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7548F1F02F01A835004B83E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				755D28562F02F6800030095C /* ImprovementNote.swift */,
+				7548F1EB2F01A835004B83E5 /* Assessment.swift */,
+				7548F1EC2F01A835004B83E5 /* ChatMessage.swift */,
+				7548F1ED2F01A835004B83E5 /* Plant.swift */,
+				7548F1EE2F01A835004B83E5 /* ProxyDTOs.swift */,
+				7548F1EF2F01A835004B83E5 /* WateringEvent.swift */,
+			);
+			name = Models;
+			path = ../Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		7548F1F52F01A835004B83E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7548F1F22F01A835004B83E5 /* GeminiProxyClient.swift */,
+				7548F1F32F01A835004B83E5 /* ImageService.swift */,
+				7548F1F42F01A835004B83E5 /* NotificationService.swift */,
+			);
+			name = Services;
+			path = ../Services;
+			sourceTree = SOURCE_ROOT;
+		};
+		7548F1F72F01A835004B83E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7548F1F62F01A835004B83E5 /* Constants.swift */,
+			);
+			name = Utilities;
+			path = ../Utilities;
+			sourceTree = SOURCE_ROOT;
+		};
+		7548F1FB2F01A835004B83E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7548F1F82F01A835004B83E5 /* ChatViewModel.swift */,
+				7548F1F92F01A835004B83E5 /* PlantDetailViewModel.swift */,
+				7548F1FA2F01A835004B83E5 /* PlantListViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ../ViewModels;
+			sourceTree = SOURCE_ROOT;
+		};
+		7548F1FE2F01A835004B83E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				755D28522F022CDC0030095C /* ImagePicker.swift */,
+				7548F1FC2F01A835004B83E5 /* PlantRowView.swift */,
+				7548F1FD2F01A835004B83E5 /* RetryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7548F2052F01A835004B83E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				755D28582F02F68E0030095C /* ImprovementNotesView.swift */,
+				755D28542F02C57A0030095C /* SettingsView.swift */,
+				7548F1FE2F01A835004B83E5 /* Components */,
+				7548F1FF2F01A835004B83E5 /* AddPlantView.swift */,
+				7548F2002F01A835004B83E5 /* AnalysisResultView.swift */,
+				7548F2012F01A835004B83E5 /* ChatView.swift */,
+				7548F2022F01A835004B83E5 /* ContentView.swift */,
+				7548F2032F01A835004B83E5 /* PlantDetailView.swift */,
+				7548F2042F01A835004B83E5 /* PlantListView.swift */,
+			);
+			name = Views;
+			path = ../Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		75DB84912F018767009577A8 = {
+			isa = PBXGroup;
+			children = (
+				755D28512F0228DE0030095C /* PlantTracker-Info.plist */,
+				7548F1DF2F01A747004B83E5 /* Assets.xcassets */,
+				7548F1F02F01A835004B83E5 /* Models */,
+				7548F1F12F01A835004B83E5 /* PlantTrackerApp.swift */,
+				7548F1F52F01A835004B83E5 /* Services */,
+				7548F1F72F01A835004B83E5 /* Utilities */,
+				7548F1FB2F01A835004B83E5 /* ViewModels */,
+				7548F2052F01A835004B83E5 /* Views */,
+				7548F21B2F01A93F004B83E5 /* PlantTracker.app */,
+				755D284F2F0219C40030095C /* PlantTrackerTests.xctest */,
+				755D28502F0219C40030095C /* PlantTrackerUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DB84992F018768009577A8 /* PlantTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DB84BB2F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTracker" */;
+			buildPhases = (
+				75DB84962F018768009577A8 /* Sources */,
+				75DB84972F018768009577A8 /* Frameworks */,
+				75DB84982F018768009577A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantTracker;
+			packageProductDependencies = (
+			);
+			productName = PlantTracker;
+			productReference = 7548F21B2F01A93F004B83E5 /* PlantTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DB84A62F01876C009577A8 /* PlantTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DB84BE2F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTrackerTests" */;
+			buildPhases = (
+				75DB84A32F01876C009577A8 /* Sources */,
+				75DB84A42F01876C009577A8 /* Frameworks */,
+				75DB84A52F01876C009577A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DB84A92F01876C009577A8 /* PBXTargetDependency */,
+			);
+			name = PlantTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = PlantTrackerTests;
+			productReference = 755D284F2F0219C40030095C /* PlantTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75DB84B02F01876C009577A8 /* PlantTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DB84C12F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTrackerUITests" */;
+			buildPhases = (
+				75DB84AD2F01876C009577A8 /* Sources */,
+				75DB84AE2F01876C009577A8 /* Frameworks */,
+				75DB84AF2F01876C009577A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DB84B32F01876C009577A8 /* PBXTargetDependency */,
+			);
+			name = PlantTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = PlantTrackerUITests;
+			productReference = 755D28502F0219C40030095C /* PlantTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DB84922F018767009577A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					75DB84992F018768009577A8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					75DB84A62F01876C009577A8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 75DB84992F018768009577A8;
+					};
+					75DB84B02F01876C009577A8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 75DB84992F018768009577A8;
+					};
+				};
+			};
+			buildConfigurationList = 75DB84952F018767009577A8 /* Build configuration list for PBXProject "PlantTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DB84912F018767009577A8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75DB84912F018767009577A8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DB84992F018768009577A8 /* PlantTracker */,
+				75DB84A62F01876C009577A8 /* PlantTrackerTests */,
+				75DB84B02F01876C009577A8 /* PlantTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DB84982F018768009577A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7548F1E22F01A747004B83E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84A52F01876C009577A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84AF2F01876C009577A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DB84962F018768009577A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7548F2062F01A836004B83E5 /* PlantTrackerApp.swift in Sources */,
+				755D28552F02C57A0030095C /* SettingsView.swift in Sources */,
+				7548F2072F01A836004B83E5 /* ProxyDTOs.swift in Sources */,
+				755D28592F02F68E0030095C /* ImprovementNotesView.swift in Sources */,
+				7548F2082F01A836004B83E5 /* PlantListView.swift in Sources */,
+				7548F2092F01A836004B83E5 /* ChatViewModel.swift in Sources */,
+				7548F20A2F01A836004B83E5 /* Assessment.swift in Sources */,
+				7548F20B2F01A836004B83E5 /* Plant.swift in Sources */,
+				7548F20C2F01A836004B83E5 /* WateringEvent.swift in Sources */,
+				755D28532F022CDC0030095C /* ImagePicker.swift in Sources */,
+				7548F20D2F01A836004B83E5 /* PlantRowView.swift in Sources */,
+				7548F20E2F01A836004B83E5 /* AnalysisResultView.swift in Sources */,
+				7548F20F2F01A836004B83E5 /* RetryButton.swift in Sources */,
+				7548F2102F01A836004B83E5 /* AddPlantView.swift in Sources */,
+				7548F2112F01A836004B83E5 /* ImageService.swift in Sources */,
+				7548F2122F01A836004B83E5 /* NotificationService.swift in Sources */,
+				7548F2132F01A836004B83E5 /* ChatMessage.swift in Sources */,
+				7548F2142F01A836004B83E5 /* ChatView.swift in Sources */,
+				7548F2152F01A836004B83E5 /* PlantDetailViewModel.swift in Sources */,
+				7548F2162F01A836004B83E5 /* GeminiProxyClient.swift in Sources */,
+				7548F2172F01A836004B83E5 /* Constants.swift in Sources */,
+				755D28572F02F6800030095C /* ImprovementNote.swift in Sources */,
+				7548F2182F01A836004B83E5 /* PlantListViewModel.swift in Sources */,
+				7548F2192F01A836004B83E5 /* ContentView.swift in Sources */,
+				7548F21A2F01A836004B83E5 /* PlantDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84A32F01876C009577A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DB84AD2F01876C009577A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DB84A92F01876C009577A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DB84992F018768009577A8 /* PlantTracker */;
+			targetProxy = 75DB84A82F01876C009577A8 /* PBXContainerItemProxy */;
+		};
+		75DB84B32F01876C009577A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DB84992F018768009577A8 /* PlantTracker */;
+			targetProxy = 75DB84B22F01876C009577A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75DB84B92F01876C009577A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75DB84BA2F01876C009577A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DB84BC2F01876C009577A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlantTracker-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take plant photos for health analysis";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select plant photos for health analysis";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75DB84BD2F01876C009577A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlantTracker-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take plant photos for health analysis";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select plant photos for health analysis";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75DB84BF2F01876C009577A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantTracker";
+			};
+			name = Debug;
+		};
+		75DB84C02F01876C009577A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlantTracker";
+			};
+			name = Release;
+		};
+		75DB84C22F01876C009577A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlantTracker;
+			};
+			name = Debug;
+		};
+		75DB84C32F01876C009577A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L98437ZWSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = antonbl.PlantTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlantTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DB84952F018767009577A8 /* Build configuration list for PBXProject "PlantTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DB84B92F01876C009577A8 /* Debug */,
+				75DB84BA2F01876C009577A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DB84BB2F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DB84BC2F01876C009577A8 /* Debug */,
+				75DB84BD2F01876C009577A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DB84BE2F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DB84BF2F01876C009577A8 /* Debug */,
+				75DB84C02F01876C009577A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DB84C12F01876C009577A8 /* Build configuration list for PBXNativeTarget "PlantTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DB84C22F01876C009577A8 /* Debug */,
+				75DB84C32F01876C009577A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75DB84922F018767009577A8 /* Project object */;
+}
